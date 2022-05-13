@@ -86,6 +86,7 @@ export default {
 
             .card-icon {
                 .icon {
+                    font-size: 1.3rem;
                     width: 50px;
                     height: 50px;
                     background-color: $iconBg;

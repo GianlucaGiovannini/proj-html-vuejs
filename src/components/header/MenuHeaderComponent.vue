@@ -62,7 +62,6 @@ export default {
 
         &:hover {
             color: white;
-            border-top: 3px solid white;
         }
     }
     

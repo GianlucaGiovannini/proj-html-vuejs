@@ -2,13 +2,13 @@
     <div class="text_jumbo text-uppercase">
         <div class="container">
             <div class="slogan_container">
-                <div class="slogan_brand">
+                <div class="divisor">
                     <span class="line_30"></span>
                     Alwats the best way you need it
                 </div>
                 <h1 class="py-3">the best business consulting</h1>
                 <div class="more_info d-flex align-items-center">
-                    <button class="btn_site text-uppercase">read more</button>
+                    <button class="btn_site">read more</button>
                     <span class="icon_player">
                         <font-awesome-icon icon="fa-solid fa-play" />
                     </span>
@@ -42,11 +42,6 @@ export default {
             position: absolute;
             bottom: 20%;
             width: 50%;
-            
-            .slogan_brand {
-                color: $sloganBrand;
-                font-size: 0.9rem;
-            }
 
             h1 {
                 font-size: 4.2rem;
@@ -54,7 +49,6 @@ export default {
             }
 
             .btn_site {
-                font-size: 0.85rem;
                 margin-right: 1.5rem;
                 background-color: $lightGreen;
                 border: none;

@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav :class="scrollHeader >= 60 ? 'scroll_y' : '' ">
       <div class="container d-flex justify-content-between align-items-center">
           <LogoHeader />
           <MenuHeader />
@@ -15,7 +15,17 @@ export default {
     components: {
         LogoHeader,
         MenuHeader,
+    },
+    data() {
+    return {
+      scrollHeader: '',
     }
+  },
+  mounted() {
+    window.addEventListener("scroll", () => {
+      this.scrollHeader = window.scrollY
+    });
+  }
 }
 </script>
 
@@ -24,5 +34,10 @@ export default {
         position: fixed;
         width: 100%;
         z-index: 3;
+        transition: background-color 0.7s;
     }
+
+    .scroll_y {
+  background-color: rgb(20 20 20 / 95%);
+}
 </style>

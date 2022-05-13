@@ -19,7 +19,16 @@ a {
 /* utilities */
 
 .btn_site {
+    font-size: 0.85rem;
+    text-transform: uppercase;
     padding: 0.7rem 1.9rem;
+    border: none;
+}
+
+.divisor {
+    color: $divisorText;
+    font-size: 0.9rem;
+    text-transform: uppercase;
 }
 
 .line_30 {

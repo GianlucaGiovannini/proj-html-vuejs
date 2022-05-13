@@ -17,7 +17,10 @@ export default {
 
 <style lang="scss" scoped>
     .col-4 {
-        background: $blueBrand;
+        background-image: url("@/assets/img/bg_jumbo.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: cover;
         height: 70vh;
     }
     .col-8 {
