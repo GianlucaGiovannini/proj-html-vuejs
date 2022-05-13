@@ -5,12 +5,19 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #141414;
+a {
+    text-decoration: none;
 }
 
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* utilities */
+
+.btn_site {
+    padding: 0.7rem 1.9rem;
 }
