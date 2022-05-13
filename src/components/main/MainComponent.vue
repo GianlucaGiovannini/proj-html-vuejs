@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import JumboTron from '@/components/main/JumboTronComponent.vue'
-import ConsultantSection from '@/components/main/ConsultantComponent.vue'
+import JumboTron from '@/components/main/jumbotron/JumboTronComponent.vue'
+import ConsultantSection from '@/components/main/sec_consultant/ConsultantComponent.vue'
 export default {
   name: 'MainComponent',
   components: {

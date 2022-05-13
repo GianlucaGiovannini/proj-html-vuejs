@@ -46,18 +46,10 @@ export default {
             .slogan_brand {
                 color: $sloganBrand;
                 font-size: 0.9rem;
-
-                .line_30 {
-                    display: inline-block;
-                    width: 35px;
-                    height: 2px;
-                    background-color: $lightGreen;
-                    margin-right: 1rem;
-                }
             }
 
             h1 {
-                font-size: 4.7rem;
+                font-size: 4.2rem;
 
             }
 

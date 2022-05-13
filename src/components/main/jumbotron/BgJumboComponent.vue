@@ -17,7 +17,7 @@ export default {
 
 <style lang="scss" scoped>
     .col-4 {
-        background: $bgJumboCol;
+        background: $blueBrand;
         height: 70vh;
     }
     .col-8 {

@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import BgJumbo from '@/components/main/BgJumboComponent.vue'
-import TextJumbo from '@/components/main/TextJumboComponent.vue'
+import BgJumbo from '@/components/main/jumbotron/BgJumboComponent.vue'
+import TextJumbo from '@/components/main/jumbotron/TextJumboComponent.vue'
 export default {
     name: 'JumboTronComponent',
     components: {

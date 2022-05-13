@@ -10,16 +10,18 @@ Vue.use(bootstrap)
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import specific icons 👇 QUI AGGIUNGI LE ICONE che vuoi usare in camelCase */
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faPlay, faChartColumn, faSignal, faWallet, faBullseye } from '@fortawesome/free-solid-svg-icons'
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library 👇 QUI AGGIUNGI IL NOME DELL'ICONA in camelCase*/
-library.add(faPlay)
+library.add(faPlay, faChartColumn, faSignal, faWallet, faBullseye)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+faChartColumn, faSignal, faWallet, faBullseye
 
 Vue.config.productionTip = false
 
