@@ -1,5 +1,5 @@
 <template>
-    <section class="strategy">
+    <section class="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-7">
@@ -16,7 +16,7 @@
                         buzz of the little world among the stalks and grow familiar indescribable forms of the insects
                         and flies, then i feel the presence of the almighty</p>
                 </div>
-                <div class="col-10">
+                <div class="col-11">
                     <div class="row">
                         <div class="col">
                             <h3 class="text-uppercase">
@@ -41,12 +41,12 @@
 
 <script>
 export default {
-    name: 'StrategyComponent.vue'
+    name: 'AboutComponent.vue'
 }
 </script>
 
 <style lang="scss" scoped>
-.strategy {
+.about {
     background-image: url("@/assets/img/bg_strategy.png");
     background-repeat: no-repeat;
     background-position: top right;
@@ -71,24 +71,24 @@ export default {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 3.12rem;
+            padding: 3.12rem 6rem 3.12rem 5rem;
 
             h2 {
-                font-size: 3.5rem;
+                font-size: 3rem;
                 color: white;
-                padding: 2.5rem 0;
+                padding: 0 4rem 1.5rem 0;
                 margin: 0;
             }
 
             p {
                 font-size: 0.85rem;
                 color: $textStrategy;
-                padding-right: 9rem;
+                padding-right: 11rem;
                 margin: 0;
             }
         }
 
-        .col-10 {
+        .col-11 {
             background-color: $lightGreen;
             padding: 4.5rem 3rem 4.5rem 0;
             position: relative;
@@ -117,6 +117,8 @@ export default {
 
                 &:hover {
                     background-color: $blueBrand;
+                    border-bottom: 1px solid $lightGreen;
+                    border-right: 1px solid $lightGreen;
                 }
             }
         }
