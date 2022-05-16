@@ -83,6 +83,7 @@ export default {
     h2 {
         font-size: 2rem;
         color: white;
+        padding: 2.5rem 0;
         margin: 0;
     }
 
@@ -100,7 +101,7 @@ export default {
     }
 
     .col {
-
+        padding-left: 0;
         .cards {
             position: relative;
             transition: 1s;

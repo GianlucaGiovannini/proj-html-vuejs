@@ -8,6 +8,7 @@
       <TestimonialSection />
       <BlogSection />
     </div>
+    <TalkAbout />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import AboutSection from '@/components/main/sec_about/AboutComponent.vue'
 import ProjectSection from '@/components/main/sec_project/ProjectComponent.vue'
 import TestimonialSection from '@/components/main/sec_testimonial/TestimonialComponent.vue'
 import BlogSection from '@/components/main/sec_blog/BlogComponent.vue'
+import TalkAbout from '@/components/main/sec_talk/TalkAboutComponent.vue'
 export default {
   name: 'MainComponent',
   components: {
@@ -26,7 +28,8 @@ export default {
     AboutSection,
     ProjectSection,
     TestimonialSection,
-    BlogSection
+    BlogSection,
+    TalkAbout
   }
 }
 </script>
@@ -38,6 +41,6 @@ export default {
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
-  padding-bottom: 10rem;
+  padding-bottom: 12rem;
 }
 </style>

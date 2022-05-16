@@ -1,12 +1,14 @@
 <template>
-    <div class="container-fluid">
-        <div class="row justify-content-end">
-            <div class="col-11 bg-white">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-3 gy-3">
-                        <SayCard :about="about" v-for="about in sayAbout" :key="about.id" />
-                        
+    <div class="gradient_trick">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col bg-white">
+                    <div class="container">
+                        <div class="row row-cols-1 row-cols-md-3 gy-3">
+                            <SayCard :about="about" v-for="about in sayAbout" :key="about.id" />
 
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -52,12 +54,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.col-11 {
+.gradient_trick {
+    background: linear-gradient(to right, #1f1e38 16%, white 16%);
+}
 
-    background-color: white;
+.row {
     position: relative;
     overflow: hidden;
-    
+
 
     &::before {
         content: '';

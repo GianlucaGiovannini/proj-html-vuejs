@@ -54,9 +54,10 @@ export default {
                 border: none;
 
                 &:hover {
-                    background-color: $btnHover;   
+                    background-color: $btnHover;
                 }
             }
+
             .icon_player {
                 font-size: 0.6rem;
                 color: $lightGreen;
@@ -66,13 +67,16 @@ export default {
                 border-radius: 50%;
                 display: flex;
                 justify-content: center;
-                align-items: center ;
+                align-items: center;
+                transition: 1.5s;
 
                 &:hover {
                     color: $btnHover;
+                    transform: scale(1.2);
                 }
             }
         }
     }
 }
+
 </style>
