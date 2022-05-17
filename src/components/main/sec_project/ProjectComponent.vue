@@ -1,8 +1,8 @@
 <template>
-    <section class="project">
+    <section id="project">
         <div class="container">
             <div class="divisor">
-                <span class="line_30"></span> project
+                <span class="line_30 me-3"></span> project
             </div>
             <div class="row row-cols-2">
                 <div class="col">
@@ -56,17 +56,17 @@ export default {
             secPhoto: [
                 {
                     id: 1,
-                    src: require("@/assets/img/client/DRY-1-790x592.jpg"),
+                    src: require("@/assets/img/project/DRY-1-790x592.jpg"),
                     alt: 'Foto a caso'
                 },
                 {
                     id: 2,
-                    src: require("@/assets/img/client/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"),
+                    src: require("@/assets/img/project/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"),
                     alt: 'Foto a caso'
                 },
                 {
                     id: 3,
-                    src: require("@/assets/img/client/z1el4c4p-790x592.jpg"),
+                    src: require("@/assets/img/project/z1el4c4p-790x592.jpg"),
                     alt: 'Foto a caso'
                 },
             ]
@@ -76,15 +76,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.project {
+#project {
     background-color: $blueBrand;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 
     h2 {
-        font-size: 2rem;
         color: white;
-        padding: 2.5rem 0;
-        margin: 0;
     }
 
     .left_icon,
@@ -101,7 +98,7 @@ export default {
     }
 
     .col {
-        padding-left: 0;
+        
         .cards {
             position: relative;
             transition: 1s;
@@ -145,6 +142,7 @@ export default {
                         background-color: $blueBrand;
                         width: 16%;
                         aspect-ratio: 1 / 1;
+                        cursor: pointer;
                         
                         .icon {
                             color: white;

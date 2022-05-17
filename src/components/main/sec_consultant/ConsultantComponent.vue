@@ -1,5 +1,5 @@
 <template>
-    <section class="our_consultants">
+    <section id="our_consultants">
         <TitleConsultant />
         <ContentConsultant />
     </section>
@@ -19,7 +19,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.our_consultants {
-    padding: 5.55rem 0;
+#our_consultants {
+    padding: 5.55rem 0 7rem;
 }
 </style>

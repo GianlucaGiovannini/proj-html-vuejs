@@ -3,10 +3,10 @@
         <div class="container">
             <div class="slogan_container">
                 <div class="divisor">
-                    <span class="line_30"></span>
+                    <span class="line_30 me-3"></span>
                     Alwats the best way you need it
                 </div>
-                <h1 class="py-3">the best business consulting</h1>
+                <h1 class="pb-4">the best business consulting</h1>
                 <div class="more_info d-flex align-items-center">
                     <button class="btn_site">read more</button>
                     <span class="icon_player">
@@ -78,5 +78,7 @@ export default {
         }
     }
 }
+
+
 
 </style>

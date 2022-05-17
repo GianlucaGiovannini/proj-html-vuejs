@@ -37,11 +37,24 @@
 
       <div class="footer_bottom d-flex justify-content-between align-items-end">
         <div class="terms">
-          <div>Terms of use</div>
-          <div>Privacy Envioremental Policy</div>
+          <div>
+            <a href="#">
+              Terms of use
+            </a>
+          </div>
+          <div>
+            <a href="#">
+              Privacy Envioremental Policy
+            </a>
+          </div>
         </div>
         <div class="copyright">
           Copyright &copy; Phlox Consulting. All Rights Reserved.
+        </div>
+        <div class="up_site">
+          <a href="#site_header">
+            <font-awesome-icon icon="fa-solid fa-arrow-up" />
+            </a>
         </div>
       </div>
 
@@ -93,11 +106,11 @@ footer {
 
   .footer_top {
     padding: 4rem 0;
-    border-bottom: 1px solid $textStrategy;
+    border-bottom: 1px solid $footerDivisor;
 
     .menu_footer {
       a {
-        color: $textStrategy;
+        color: $globalText;
 
         &:hover {
           color: white;
@@ -118,9 +131,28 @@ footer {
   }
 
   .footer_bottom {
-  padding: 2rem 0;
-  color: $textStrategy;
-}
+    color: $globalText;
+    padding: 2rem 0;
+    position: relative;
+
+    a {
+      color: $globalText;
+    }
+
+    .up_site {
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      position:absolute;
+      width: 28px;
+      height: 28px;
+      top: 45%;
+      right: -35px;
+      transform: translate(0, -50%);
+    }
+  }
 }
 
 .facebook {
@@ -162,7 +194,4 @@ footer {
     }
   }
 }
-
-
-
 </style>

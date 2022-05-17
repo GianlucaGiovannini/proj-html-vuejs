@@ -1,5 +1,5 @@
 <template>
-    <section class="about">
+    <section id="about">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-7">
@@ -8,13 +8,10 @@
                 </div>
                 <div class="col-5">
                     <div class="divisor text-uppercase">
-                        <span class="line_30"></span> about us
+                        <span class="line_30 me-3"></span> about us
                     </div>
                     <h2 class="text-uppercase">we make your strategy work</h2>
-                    <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper
-                        impenetrable foliage of my trees, and but a thousand unknow plants are noticed when i hear the
-                        buzz of the little world among the stalks and grow familiar indescribable forms of the insects
-                        and flies, then i feel the presence of the almighty</p>
+                    <p>When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a thousand unknown plants are noticed when i hear the buzz of the little world among the stalks and grow familiar indescribable forms of the insects and filies, then i feel the presence of the Almighty</p>
                 </div>
                 <div class="col-11">
                     <div class="row">
@@ -46,12 +43,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.about {
+#about {
     background-image: url("@/assets/img/bg_strategy.png");
     background-repeat: no-repeat;
     background-position: top right;
     background-size: cover;
-    padding-bottom: 5rem;
+    padding-bottom: 7rem;
 }
 
 .container-fluid {
@@ -81,8 +78,7 @@ export default {
             }
 
             p {
-                font-size: 0.85rem;
-                color: $textStrategy;
+                color: $globalText;
                 padding-right: 11rem;
                 margin: 0;
             }
@@ -103,7 +99,8 @@ export default {
             }
 
             p {
-                font-size: 0.85rem;
+                font-weight: 500;
+                color: $textOnGreen;
                 width: 60%;
                 margin-left: 20%;
             }

@@ -1,9 +1,9 @@
 <template>
     <section class="talk">
         <h2 class="text-uppercase">Let's talk about work</h2>
-        <div class="desc pt-2 pb-4">
+        <p class="desc pt-2 pb-4">
             A wonderful senerity has taken possession Far far away, behind the word mountains.
-        </div>
+        </p>
         <div class="btn_start">
             <button class="btn_site">
                 get started
@@ -42,7 +42,6 @@ export default {
     .desc {
         color: #bababa;
         width: 20%;
-        font-size: 0.9rem;
         text-align: center;
     }
 

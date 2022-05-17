@@ -1,15 +1,15 @@
 <template>
-    <section class="blog">
+    <section id="blog">
         <div class="container">
             <div class="divisor">
                 Blog
-                <span class="line_30"></span>
+                <span class="line_30 ms-3"></span>
             </div>
             <div class="title_section d-flex justify-content-between">
                 <h2 class="text-uppercase text-white">
                     The recent news you must read it
                 </h2>
-                <div class="more_info d-flex justify-content-end align-items-center">
+                <div class="more_info align-self-start d-flex justify-content-end align-items-center">
                     <button class="btn_site">view all</button>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.blog {
+#blog {
 
     .title_section {
         padding-bottom: 2.5rem;

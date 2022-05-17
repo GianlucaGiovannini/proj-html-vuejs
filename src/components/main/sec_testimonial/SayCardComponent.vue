@@ -32,12 +32,11 @@ export default {
 
 <style lang="scss" scoped>
 .col {
-    color: $textCostumerCard;
+    color: $textCustumerCard;
     height: 300px;
     z-index: 1;
 
     .cards {
-        font-size: 0.85rem;
         height: 100%;
         width: 100%;
         padding-top: 2.5rem;

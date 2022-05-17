@@ -15,7 +15,7 @@
                         <h5> {{element.title}} </h5> 
                     </div>
 
-                    <div class="desc dots">
+                    <div class="desc">
                         {{element.text}}
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export default {
         background-color: white;
         width: 70%;
         height: 50%;
-        padding: 2rem 6rem 2rem 2rem;
+        padding: 2rem 6.3rem 2rem 2rem;
         position: absolute;
         right: 0;
         bottom: -4rem;
@@ -84,7 +84,7 @@ export default {
         .desc {
             font-size: 0.82rem;
             line-height: 22px;
-            color: $textCostumerCard;
+            color: $textCustumerCard;
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;

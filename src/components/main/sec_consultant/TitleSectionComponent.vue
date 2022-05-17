@@ -1,7 +1,7 @@
 <template>
-    <div class="container-fluid title_section d-flex align-items-center">
+    <div class="container-fluid title_section d-flex align-items-end">
         <div class="row w-100">
-            <div class="col-5 text-end">
+            <div class="col-5 text-end align-self-end">
                 <h2 class="text-uppercase">our consultants can help you </h2>
             </div>
             <div class="col-7 align-self-center">
@@ -27,7 +27,9 @@ export default {
         font-size: 1.1rem;
         font-weight: 700;
         margin-right: 2.5rem;
+        padding-bottom: 0;
         margin-bottom: 0;
+
     }
 
     .row {

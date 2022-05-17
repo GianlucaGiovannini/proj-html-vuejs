@@ -21,13 +21,13 @@ export default {
         background-repeat: no-repeat;
         background-position: top right;
         background-size: cover;
-        height: 70vh;
+        height: 80vh;
     }
     .col-8 {
         background-image: url("@/assets/img/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
-        height: 70vh;
+        height: 80vh;
     }
 </style>
