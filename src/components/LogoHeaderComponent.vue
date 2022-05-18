@@ -1,6 +1,8 @@
 <template>
   <div class="logo_header">
-      <img src="@/assets/img/logo/logotype.png" alt="Logo Phlox">
+      <a href="#">
+        <img src="@/assets/img/logo/logotype.png" alt="Logo Phlox">
+      </a>
   </div>
 </template>
 
